@@ -1,0 +1,184 @@
+.aakarsh {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  width: 300px;
+  height: 300px;
+}
+
+.aakarsh *, .aakarsh *:before, .aakarsh *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.aakarsh img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.aakarsh:before, .aakarsh:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: #000000;
+  opacity: 0.5;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.aakarsh:before {
+  -webkit-transform: skew(30deg) translateX(80%);
+  transform: skew(30deg) translateX(80%);
+}
+
+.aakarsh:after {
+  -webkit-transform: skew(-30deg) translateX(70%);
+  transform: skew(-30deg) translateX(70%);
+}
+
+.aakarsh figcaption {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+  padding: 20px 20px 20px 40%;
+}
+
+.aakarsh figcaption:before, .aakarsh figcaption:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2400ff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  content: '';
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.aakarsh figcaption:before {
+  -webkit-transform: skew(30deg) translateX(100%);
+  transform: skew(30deg) translateX(100%);
+}
+
+.aakarsh figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(90%);
+  transform: skew(-30deg) translateX(90%);
+}
+
+.aakarsh h3, .aakarsh p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.aakarsh h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.aakarsh p {
+  font-size: 0.9em;
+}
+
+.aakarsh a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.aakarsh:hover h3, .aakarsh.hover h3, .aakarsh:hover p, .aakarsh.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 0.9;
+}
+
+.aakarsh:hover:before, .aakarsh.hover:before {
+  -webkit-transform: skew(30deg) translateX(30%);
+  transform: skew(30deg) translateX(30%);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.aakarsh:hover:after, .aakarsh.hover:after {
+  -webkit-transform: skew(-30deg) translateX(20%);
+  transform: skew(-30deg) translateX(20%);
+}
+
+.aakarsh:hover figcaption:before, .aakarsh.hover figcaption:before {
+  -webkit-transform: skew(30deg) translateX(50%);
+  transform: skew(30deg) translateX(50%);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.aakarsh:hover figcaption:after, .aakarsh.hover figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(40%);
+  transform: skew(-30deg) translateX(40%);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  transition: ease-in;
+  transition-duration: 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+}
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: LemonMilk;
+  font-size: 27px;
+  margin-right: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: LemonMilk;
+  transition: ease-in;
+  transition-duration: 0.4s;
+  element.style {  color: #ffffff;
+  font-family: LemonMilk;
+  font-size: 27px;
+  margin-right: 25px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

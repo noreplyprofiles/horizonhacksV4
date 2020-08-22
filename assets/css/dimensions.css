@@ -1,0 +1,197 @@
+@media (max-width:768px) {
+  #NavPC {
+    display: none;
+  }
+}
+
+@media (min-width:769px) {
+  #NavMobile {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  #cover {
+    background-image: url(../../assets/img/354096.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+  }
+}
+
+@media (min-width:768px) {
+  #cover {
+    background-image: url(../../assets/img/354096.png);
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+  }
+}
+
+@media (max-width:767px) {
+  #HorizonHacks {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    font-family: LemonMilk;
+    color: rgb(255,255,255);
+    font-size: 70px;
+    background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: fade;
+    transition-duration: 1250ms;
+    border: none;
+  }
+}
+
+@media (min-width:768px) {
+  #HorizonHacks {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    text-align: center;
+    font-family: LemonMilk;
+    color: rgb(255,255,255);
+    font-size: 125px;
+    background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width:767px) {
+  #faq {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    font-family: LemonMilk;
+    color: rgb(255,255,255);
+    font-size: 70px;
+    background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: fade;
+    transition-duration: 1250ms;
+    border: none;
+  }
+}
+
+@media (min-width:768px) {
+  #faq {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: LemonMilk;
+    color: rgb(255,255,255);
+    font-size: 125px;
+    background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width:767px) {
+  #SignUp:hover {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    background: -webkit-linear-gradient(135deg,#8f8f8f, #ffffff);
+    color: black;
+    font-size: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    transition: ease-in;
+    transition-duration: 0.4s;
+    font-family: ALDITH;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width:767px) {
+  #SignUp {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    background: -webkit-linear-gradient(135deg,#8f8f8f, #ffffff);
+    color: white;
+    font-size: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    font-family: ALDITH;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width:768px) {
+  #SignUp {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    background: -webkit-linear-gradient(135deg,#8f8f8f, #ffffff);
+    color: white;
+    font-size: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    font-family: ALDITH;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width:768px) {
+  #SignUp:hover {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    background: -webkit-linear-gradient(135deg,#8f8f8f, #ffffff);
+    color: black;
+    font-size: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    transition: ease-in;
+    transition-duration: 0.4s;
+    font-family: ALDITH;
+    margin-top: 100px;
+  }
+}
+

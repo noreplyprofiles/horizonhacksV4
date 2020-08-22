@@ -1,0 +1,22 @@
+.icon.ion-social-instagram-outline.pfpicon:hover {
+  font-size: 30px;
+  display: inline-block;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #ff0f00, #fff500);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: ease-in;
+  transition-duration: 0.4s;
+}
+
+.icon.ion-social-instagram-outline.pfpicon {
+  font-size: 30px;
+  display: inline-block;
+  color: #000000;
+  background-image: linear-gradient(45deg, #ff0f00, #fff500);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+

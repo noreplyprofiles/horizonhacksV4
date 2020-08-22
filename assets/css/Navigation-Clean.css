@@ -1,0 +1,282 @@
+.navigation-clean {
+  position: abosl;
+  background: #fff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  /*overflow: hidden;*/
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: white;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: rgb(255,255,255);
+}
+
+.navigation-clean.navbar-dark .navbar-brand:hover {
+  color: #000000;
+}
+
+.navigation-clean .navbar-brand img {
+  height: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  width: auto;
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navigation-clean .navbar-toggler:hover {
+  background: rgb(0,0,0);
+}
+
+.navigation-clean.navbar-dark .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navigation-clean .navbar-toggler {
+  color: #000000;
+}
+
+.navigation-clean.navbar-dark .navbar-toggler {
+  color: #ffffff;
+}
+
+.navigation-clean .navbar-collapse, .navigation-clean .form-inline {
+  border-top-color: #ffffff;
+}
+
+.navigation-clean.navbar-dark .navbar-collapse, .navigation-clean.navbar-dark .form-inline {
+  border-top-color: #333;
+}
+
+.navigation-clean .navbar-nav > .active > a, .navigation-clean .navbar-nav > .show > a {
+  background: none;
+  box-shadow: none;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #465765;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #f70000 !important;
+  /*background-color: black;*/
+  border-radius: none;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: none;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+@media (min-width:768px) {
+  .navigation-clean .navbar-nav .show .dropdown-menu {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  }
+}
+
+@media (max-width:767px) {
+  .navigation-clean .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #37434d;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    line-height: 1;
+  }
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
+  background: #eee;
+  color: inherit;
+}
+
+.navigation-clean.navbar-dark {
+  background-color: #1f2021;
+  color: #fff;
+}
+
+.navigation-clean.navbar-dark .navbar-nav a.active, .navigation-clean.navbar-dark .navbar-nav a.active:focus, .navigation-clean.navbar-dark .navbar-nav a.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar-dark .navbar-nav .nav-link {
+  color: #dfe8ee;
+}
+
+.navigation-clean.navbar-dark .navbar-nav .nav-link:focus, .navigation-clean.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navigation-clean.navbar-dark .navbar-nav > li > .dropdown-menu {
+  background-color: #1f2021;
+}
+
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus, .navigation-clean.navbar-dark .dropdown-menu .dropdown-item {
+  color: #f2f5f8;
+}
+
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus, .navigation-clean.navbar-dark .dropdown-menu .dropdown-item:hover {
+  background: #363739;
+}
+
+@media (max-width:767px) {
+  .navigation-clean.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff;
+  }
+}
+
+z {
+}
+
+.navbar-light .navbar-nav .nav-link {
+  float: left;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: initial;
+  text-decoration: initial;
+}
+
+.navbar-light .navbar-nav .nav-link a:hover {
+  text: white;
+  color: black;
+}
+
+.navbar-light .navbar-toggler-icon a:hover {
+  color: rgb(255,255,255);
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link:hover {
+  color: black;
+}
+
+.testrun {
+  background-image: url("../../assets/img/cover.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  height: 115px;
+  float: left;
+  width: auto;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.front {
+  overflow: hidden;
+  background: transparent;
+}
+
+.icon-menu:hover {
+  color: white;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.5px;
+  text-align: center;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):hover {
+}
+
+#register {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#register:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: ease-in;
+  transition-duration: 0.4s;
+}
+
+.h1, h1 {
+  text-align: center;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  text-decoration: bold;
+}
+
+div {
+  text-align: center;
+}
+
+#teampic {
+  border-radius: 50%;
+  width: 11rem;
+  height: 11rem;
+  align-self: center;
+  object-fit: cover;
+}
+
